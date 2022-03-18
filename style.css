@@ -3,6 +3,19 @@
   display: inline;
   margin-right: 1rem;
 }
+#navbar {
+  display: flex;
+  flex-direction: row;
+}
 #body {
   background-color: gray;
+}
+nav a :hover {
+  color: rgba(7, 15, 7, 0.952);
+  background-color: gray;
+  transition: background-color 0.15s, font-size 0.15s;
+  font-size: 30px;
+}
+nav a {
+  color: white;
 }
