@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  color: white;
 }
 
 .nav li {
@@ -12,7 +13,7 @@ html {
   flex-direction: row;
 }
 #body {
-  background-color: gray;
+  background-image: url(./Images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
 }
 nav a :hover {
   color: rgba(7, 15, 7, 0.952);
