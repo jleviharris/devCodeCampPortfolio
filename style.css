@@ -3,6 +3,11 @@
   font-size: 62.5%;
   font-family: "Dosis", sans-serif;
   color: white;
+  font-weight: 300;
+}
+
+.about-me-title {
+  font-size: large;
 }
 
 li {
@@ -12,9 +17,9 @@ li {
 }
 #navbar {
   display: flex;
-  flex-direction: row;
-  text-align: end;
-  width: 100vw;
+  flex-direction: row-reverse;
+  text-align: right;
+  width: 100%;
 }
 #body {
   background-image: url(./Images/jeremy-bishop-rqWoB4LFgmc-unsplash.jpg);
@@ -33,6 +38,7 @@ li {
 nav a {
   color: white;
   text-decoration: none;
+  font-size: large;
 }
 
 .heading-name {
@@ -41,38 +47,53 @@ nav a {
   border-bottom-width: 0.01rem;
   border-bottom-style: solid;
   margin-bottom: 0.25rem;
-  font-weight: 500;
-  font-size: xx-large;
+  font-weight: 300;
+  font-size: xxx-large;
 }
 .heading-title {
   margin-top: 0.25rem;
   text-align: end;
-  font-size: large;
+  font-size: x-large;
   font-weight: 200;
 }
+.about-me-text {
+  font-size: medium;
+}
+
 .footer {
   text-align: center;
-  font-size: x-large;
   margin-top: auto;
 }
-footer a :hover {
+
+/* footer a :hover {
   color: rgba(170, 235, 243, 0.952);
   background-color: transparent;
   transition: background-color 0.15s, font-size 0.15s;
   font-size: 3rem;
-}
+} */
 footer ul {
   padding-left: 0;
+  margin: 0.5rem;
 }
 footer a {
   text-decoration: none;
   color: white;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
+  font-size: x-large;
 }
 
 .projects-title {
   text-align: center;
+  font-size: large;
+}
+
+.projects {
+  margin-top: 2rem;
+}
+
+.img {
+  max-height: 40rem;
 }
 
 /* Slideshow container */
