@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Portfolio</title>
-      <link rel="stylesheet" href="style.css">
-      <script src="https://kit.fontawesome.com/dcd936a337.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dcd936a337.js" crossorigin="anonymous"></script>
   </head>
 
   <body id="body">
+      <div>
       <nav id="navbar" class="nav">
           <ul id="navbar-ul">
               <li><a style="text-decoration: none;" class="nav-link" href="#welcome-section"><font size="+3">About</font></a></li>
@@ -17,6 +21,7 @@
               <li><a style="text-decoration: none;" class="nav-link" href="#Contact-section"><font size="+3">Contact</font></a></li>
           </ul>
       </nav>
+    </div>
     <header>
       <div class="heading">
           <h1 class ="heading-name">Jonathan Harris</h1>
@@ -30,14 +35,64 @@
       </div>
 
       <div class = "projects">
-          <h2>My Projects</h2>
-      </div>
+          <h2 class = "projects-title">My Projects</h2>
+
+      
+            <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <a target="_blank" href="https://github.com/jleviharris/projectATM.git"><img src="Images/mirza-babic-eYZpTMc7hno-unsplash.jpg" style="width:100%"></a>
+                <div class="text">ATM Project</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <a target="_blank" href="https://github.com/jleviharris/RPSLSproject.git"><img src="./Images/matt-artz-SmocKx2oDZc-unsplash.jpg" style="width:100%"></a>
+                <div class="text">Rock/Paper/Scissors/Lizard/Spock</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <a target="_blank" href="https://github.com/Adamgd91/MostWanted_JavaScript.git"><img src="./Images/jan-antonin-kolar-lRoX0shwjUQ-unsplash.jpg" style="width:100%"></a>
+                <div class="text">Most Wanted</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <a target="_blank" href="https://github.com/jleviharris/devCodeCampProject1.git"><img src="./Images/alice-donovan-rouse-z9F_yK4Nmf8-unsplash.jpg" style="width:100%"></a>
+                <div class="text">Day Trip Generator</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <a target="_blank" href="https://github.com/jleviharris/breakoutGame.git"><img src="./Images/kvalifik-Qp0sNSZhFx4-unsplash.jpg" style="width:100%"></a>
+                <div class="text">Breakout Game</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
     </main>
     <footer class="footer">
             <ul>
                 <li><a target="_blank" href="https://github.com/jleviharris">GitHub <i class="fa-brands fa-github"></i></a></li>
                 <li><a target="_blank" href="https://www.linkedin.com/in/jonathan-harris-6923331a4">LinkedIn <i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a target="_blank" href="https://www.instagram.com/ashestovanity/">Email <i class="fa-solid fa-envelope"></i></a></li>
+                <li><a target="_blank" href="mailto:devjleviharris@gmail.com">Email <i class="fa-solid fa-envelope"></i></a></li>
             </ul>
     </footer>
     <script type="text/javascript" src="index.js"></script>
