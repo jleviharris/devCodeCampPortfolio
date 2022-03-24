@@ -1,15 +1,17 @@
+<!-- TODO
+add alt atributes to imgs-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Jonathan Harris / Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/dcd936a337.js" crossorigin="anonymous"></script>
+    
   </head>
 
   <body id="body">
@@ -23,16 +25,17 @@
       </nav>
     </div>
     <header>
-    <section class="home">
         <div class="heading">
             <h1 class ="heading-name">Jonathan Harris</h1>
             <p class ="heading-title">Software Developer</p>
         </div>
-    </section>
     </header>
     <main>
       <div class="about-me-section" id="About">
-          <h2 class="about-me-title">About Me</h2>
+          <div class="about-me-header">
+            <img class="about-me-img" src="Images/20190119_142756 (1).jpg">
+            <h2 class="about-me-title">About Me</h2>
+          </div>
           <p class="about-me-text"> I am a Software Developer currently living in the small state of Delaware with my girlfriend and our two cats. After 28 years working a handfull of jobs ranging from managing a Planet Fitness to Combat Engingeer in the Marine Corps, I stumbled upon my true passion of Software Development.
           <br>
           <br>
@@ -56,43 +59,43 @@
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
                 <div class="numbertext">1 / 7</div>
-                <a target="_blank" href="https://github.com/jleviharris/projectATM.git"><img class="img" src="Images/mirza-babic-eYZpTMc7hno-unsplash.jpg" style="width:100%"></a>
+                <a target="_blank" href="https://github.com/jleviharris/projectATM.git"><img class="slides-img" src="Images/mirza-babic-eYZpTMc7hno-unsplash.jpg" style="width:100%"></a>
                 <div class="text">ATM Project</div>
             </div>
         
             <div class="mySlides fade">
                 <div class="numbertext">2 / 7</div>
-                <a target="_blank" href="https://github.com/jleviharris/RPSLSproject.git"><img img class="img" src="./Images/matt-artz-SmocKx2oDZc-unsplash.jpg" style="width:100%"></a>
+                <a target="_blank" href="https://github.com/jleviharris/RPSLSproject.git"><img class="slides-img" src="./Images/matt-artz-SmocKx2oDZc-unsplash.jpg" style="width:100%"></a>
                 <div class="text">Rock/Paper/Scissors/Lizard/Spock</div>
             </div>
         
             <div class="mySlides fade">
                 <div class="numbertext">3 / 7</div>
-                <a target="_blank" href="https://github.com/Adamgd91/MostWanted_JavaScript.git"><img img class="img" src="./Images/parker-coffman-8EYMcqG5GRU-unsplash.jpg" style="width:100%"></a>
+                <a target="_blank" href="https://github.com/Adamgd91/MostWanted_JavaScript.git"><img class="slides-img" src="./Images/parker-coffman-8EYMcqG5GRU-unsplash.jpg" style="width:100%"></a>
                 <div class="text">Most Wanted</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">4 / 7</div>
-                <a target="_blank" href="https://github.com/jleviharris/devCodeCampProject1.git"><img img class="img" src="./Images/alice-donovan-rouse-z9F_yK4Nmf8-unsplash.jpg" style="width:100%"></a>
+                <a target="_blank" href="https://github.com/jleviharris/devCodeCampProject1.git"><img class="slides-img" src="./Images/alice-donovan-rouse-z9F_yK4Nmf8-unsplash.jpg" style="width:100%"></a>
                 <div class="text">Day Trip Generator</div>
             </div>
         
             <div class="mySlides fade">
                 <div class="numbertext">5 / 7</div>
-                <a target="_blank" href="https://github.com/jleviharris/breakoutGame.git"><img img class="img" src="./Images/kvalifik-Qp0sNSZhFx4-unsplash.jpg" style="width:100%"></a>
+                <a target="_blank" href="https://github.com/jleviharris/breakoutGame.git"><img class="slides-img" src="./Images/kvalifik-Qp0sNSZhFx4-unsplash.jpg" style="width:100%"></a>
                 <div class="text">Breakout Game</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">6 / 7</div>
-                <img img class="img" src="./Images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg" style="width:100%">
+                <img class="slides-img" src="./Images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg" style="width:100%">
                 <div class="text">Coming Soon!</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">7 / 7</div>
-                <img img class="img" src="./Images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg" style="width:100%">
+                <img class="slides-img" src="./Images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg" style="width:100%">
                 <div class="text">Coming Soon!</div>
             </div>
 
@@ -130,10 +133,11 @@
     <footer class="footer" >
             <ul>
                 <li><a target="_blank" href="https://github.com/jleviharris">GitHub <i class="fa-brands fa-github"></i></a></li>
-                <li><a target="_blank" href="www.linkedin.com/in/dev-jonathan-harris">LinkedIn <i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/dev-jonathan-harris/">LinkedIn <i class="fa-brands fa-linkedin"></i></a></li>
                 <li><a target="_blank" href="mailto:devjleviharris@gmail.com">Email <i class="fa-solid fa-envelope"></i></a></li>
             </ul>
     </footer>
+    <script src="https://kit.fontawesome.com/dcd936a337.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
