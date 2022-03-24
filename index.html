@@ -23,20 +23,22 @@
       </nav>
     </div>
     <header>
-      <div class="heading">
-          <h1 class ="heading-name">Jonathan Harris</h1>
-          <p class ="heading-title">Software Developer</p>
-      </div>
+    <section class="home">
+        <div class="heading">
+            <h1 class ="heading-name">Jonathan Harris</h1>
+            <p class ="heading-title">Software Developer</p>
+        </div>
+    </section>
     </header>
     <main>
       <div class="about-me-section" id="About">
           <h2 class="about-me-title">About Me</h2>
-          <p class="about-me-text"> I am a Software Developer currently located in the small state of Delaware. After working a handfull of jobs ranging from managing a Planet Fitness to working as a Combat Engingeer in the Marine Corps, I stumbled upon my true passion of Software Development.
+          <p class="about-me-text"> I am a Software Developer currently living in the small state of Delaware with my girlfriend and our two cats. After 28 years working a handfull of jobs ranging from managing a Planet Fitness to Combat Engingeer in the Marine Corps, I stumbled upon my true passion of Software Development.
           <br>
           <br>
-          Driven, hard-working, problem solver with a high attention to detail. Fan of anime, motorcycles, video games, and almost any outdoor activity.
+          Driven, hard-working, problem solver with a high attention to detail.
           <br>
-          Even bigger fan of my girlfriend and our two cats.
+          Fan of anime, motorcycles, video games, and almost any outdoor activity.
           <br>
           <br>
           Currently working with HTML, CSS, and JavaScript but interested in expanding my knowledge and learning Back-End.
@@ -53,33 +55,45 @@
 
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-                <div class="numbertext">1 / 5</div>
+                <div class="numbertext">1 / 7</div>
                 <a target="_blank" href="https://github.com/jleviharris/projectATM.git"><img class="img" src="Images/mirza-babic-eYZpTMc7hno-unsplash.jpg" style="width:100%"></a>
                 <div class="text">ATM Project</div>
             </div>
         
             <div class="mySlides fade">
-                <div class="numbertext">2 / 5</div>
+                <div class="numbertext">2 / 7</div>
                 <a target="_blank" href="https://github.com/jleviharris/RPSLSproject.git"><img img class="img" src="./Images/matt-artz-SmocKx2oDZc-unsplash.jpg" style="width:100%"></a>
                 <div class="text">Rock/Paper/Scissors/Lizard/Spock</div>
             </div>
         
             <div class="mySlides fade">
-                <div class="numbertext">3 / 5</div>
-                <a target="_blank" href="https://github.com/Adamgd91/MostWanted_JavaScript.git"><img img class="img" src="./Images/jan-antonin-kolar-lRoX0shwjUQ-unsplash.jpg" style="width:100%"></a>
+                <div class="numbertext">3 / 7</div>
+                <a target="_blank" href="https://github.com/Adamgd91/MostWanted_JavaScript.git"><img img class="img" src="./Images/parker-coffman-8EYMcqG5GRU-unsplash.jpg" style="width:100%"></a>
                 <div class="text">Most Wanted</div>
             </div>
 
             <div class="mySlides fade">
-                <div class="numbertext">4 / 5</div>
+                <div class="numbertext">4 / 7</div>
                 <a target="_blank" href="https://github.com/jleviharris/devCodeCampProject1.git"><img img class="img" src="./Images/alice-donovan-rouse-z9F_yK4Nmf8-unsplash.jpg" style="width:100%"></a>
                 <div class="text">Day Trip Generator</div>
             </div>
         
             <div class="mySlides fade">
-                <div class="numbertext">5 / 5</div>
+                <div class="numbertext">5 / 7</div>
                 <a target="_blank" href="https://github.com/jleviharris/breakoutGame.git"><img img class="img" src="./Images/kvalifik-Qp0sNSZhFx4-unsplash.jpg" style="width:100%"></a>
                 <div class="text">Breakout Game</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 7</div>
+                <img img class="img" src="./Images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg" style="width:100%">
+                <div class="text">Coming Soon!</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 7</div>
+                <img img class="img" src="./Images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg" style="width:100%">
+                <div class="text">Coming Soon!</div>
             </div>
 
             <!-- Next and previous buttons -->
@@ -95,13 +109,28 @@
             <span class="dot" onclick="currentSlide(3)"></span>
             <span class="dot" onclick="currentSlide(4)"></span>
             <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+        </div>
+        <div id="Contact">
+            <form class="form">
+                <h2 class = "contact-title">Contact Me</h2>
+                <label class="form-text" for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label class="form-text" for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br>
+                <label class="form-text" for="email">Enter your email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                <input class="submit" type="submit" value="Submit">
+            </form>
         </div>
     </div>
     </main>
-    <footer class="footer" id="Contact">
+    <footer class="footer" >
             <ul>
                 <li><a target="_blank" href="https://github.com/jleviharris">GitHub <i class="fa-brands fa-github"></i></a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/jonathan-harris-6923331a4">LinkedIn <i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a target="_blank" href="www.linkedin.com/in/dev-jonathan-harris">LinkedIn <i class="fa-brands fa-linkedin"></i></a></li>
                 <li><a target="_blank" href="mailto:devjleviharris@gmail.com">Email <i class="fa-solid fa-envelope"></i></a></li>
             </ul>
     </footer>
