@@ -44,12 +44,13 @@ li {
   width: auto;
   padding: 0.5rem;
 }
-nav a :hover {
+.nav li :hover {
   color: rgba(170, 235, 243, 0.952);
   background-color: transparent;
   transition: background-color 0.15s, font-size 0.15s;
-  font-size: 3rem;
+  font-size: 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
@@ -172,7 +173,7 @@ footer a {
   color: #f2f2f2;
   font-size: 2rem;
   padding: 8px 12px;
-  position: absolute;
+  position: inherit;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -287,12 +288,7 @@ textarea {
 .submit {
   font-size: large;
 }
-/* @media only screen and (max-width: 600px) {
-  .slideshow-container {
-    max-height: 100vh;
-    width: auto;
-  }
-} */
+
 @media only screen and (min-width: 600px) {
   #body {
     background-size: cover;
@@ -353,5 +349,14 @@ textarea {
   }
   .contact {
     width: 100vw;
+  }
+  nav a {
+    font-size: 2.5rem;
+    margin-left: 5rem;
+  }
+  footer a {
+    font-size: 3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
 }
