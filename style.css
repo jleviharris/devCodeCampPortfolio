@@ -296,6 +296,7 @@ textarea {
 @media only screen and (min-width: 600px) {
   #body {
     background-size: cover;
+    background: url(./Images/pawel-czerwinski-vBc7xy65us8-unsplash.jpg);
     width: 100vw;
     padding: 1.5rem;
   }
@@ -313,5 +314,44 @@ textarea {
   .slides-img {
     width: 50rem;
     height: 30rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #body {
+    background-size: cover;
+    background: url(./Images/pawel-czerwinski-vBc7xy65us8-unsplash.jpg);
+    width: 100vw;
+    padding: 1.5rem;
+  }
+
+  .about-me-title {
+    font-size: 5rem;
+  }
+  .about-me-img {
+    max-height: 25rem;
+    max-width: 25rem;
+  }
+  .heading-name {
+    font-size: 10rem;
+  }
+  .heading-title {
+    font-size: 5rem;
+  }
+  .about-me-text {
+    font-weight: 400;
+    font-size: 3rem;
+  }
+  .projects-title {
+    font-size: 5rem;
+  }
+  .slides-img {
+    width: 55rem;
+    height: 55rem;
+  }
+  .contact-title {
+    font-size: 5rem;
+  }
+  .contact {
+    width: 100vw;
   }
 }
