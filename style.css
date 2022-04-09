@@ -267,8 +267,9 @@ textarea {
   #body {
     background-size: cover;
     background: url(./Images/pawel-czerwinski-vBc7xy65us8-unsplash.jpg);
-    width: 100vw;
-    padding: 1.5rem;
+    width: 100%;
+    padding: 2.5rem;
+    margin: 5.5rem;
   }
   .slideshow-container {
     max-width: 45vw;
@@ -287,8 +288,8 @@ textarea {
   #body {
     background-size: cover;
     background: url(./Images/pawel-czerwinski-vBc7xy65us8-unsplash.jpg);
-    width: 100vw;
-    padding: 1.5rem;
+    width: 95vw;
+    padding: 2.5rem;
   }
   .about-me-title {
     font-size: 5rem;
@@ -304,6 +305,7 @@ textarea {
   }
   .heading-title {
     font-size: 5rem;
+    font-weight: 400;
   }
   .about-me-text {
     font-weight: 400;
