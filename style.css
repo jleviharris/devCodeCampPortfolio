@@ -74,6 +74,10 @@ nav a {
 .footer {
   text-align: center;
   margin-top: auto;
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0; */
 }
 footer a :hover {
   color: rgba(170, 235, 243, 0.952);
@@ -231,7 +235,7 @@ select {
   font-size: medium;
 }
 /* Style the submit button */
-input[type="submit"] {
+button[type="submit"] {
   width: 100%;
   background-color: #04aa6d;
   color: black;
@@ -242,7 +246,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 /* Add a background color to the submit button on mouse-over */
-input[type="submit"]:hover {
+button[type="submit"]:hover {
   background-color: #45a049;
 }
 textarea {
