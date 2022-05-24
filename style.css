@@ -235,7 +235,7 @@ select {
   font-size: medium;
 }
 /* Style the submit button */
-button[type="submit"] {
+button[class="submit"] {
   width: 100%;
   background-color: #04aa6d;
   color: black;
