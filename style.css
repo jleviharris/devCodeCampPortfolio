@@ -314,6 +314,10 @@ textarea {
     width: 50rem;
     height: 30rem;
   }
+  .video-title {
+    font-size: 5rem;
+    margin-top: 8rem;
+  }
   .video {
     width: 500px;
     height: 500px;
