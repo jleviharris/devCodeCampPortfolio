@@ -44,8 +44,7 @@ li {
 .nav li :hover {
   color: rgba(170, 235, 243, 0.952);
   background-color: transparent;
-  transition: background-color 0.15s, font-size 0.15s;
-  font-size: 4rem;
+  transition: background-color 0.15s;
 }
 nav a {
   color: white;
@@ -82,8 +81,7 @@ nav a {
 footer a :hover {
   color: rgba(170, 235, 243, 0.952);
   background-color: transparent;
-  transition: background-color 0.15s, font-size 0.15s;
-  font-size: 3rem;
+  transition: background-color 0.15s;
 }
 footer ul {
   padding-left: 0;
@@ -95,6 +93,9 @@ footer a {
   color: white;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
+  font-size: x-large;
+}
+footer i {
   font-size: x-large;
 }
 .projects-title {
